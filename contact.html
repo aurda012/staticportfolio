@@ -103,18 +103,18 @@
               <br>
               <div class="panel" id="contact-panel">
                 <p class="semi-bold no-margin">Fill up this form to contact me if you have any futher questions.</p>
-                <form role="form" autocomplete="off" class="m-t-15" id="contact-form" action="_lib/mail.php" method="post">
+                <form role="form" autocomplete="off" class="m-t-15" id="contact-form" action="_lib/mail.php" method="POST">
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group form-group-default required">
                         <label class="control-label">First name</label>
-                        <input type="text" name="first_name" class="form-control" required>
+                        <input type="text" name="name" class="form-control" required>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group form-group-default">
                         <label class="control-label">Last name</label>
-                        <input type="text" name="last_name" class="form-control" required>
+                        <input type="text" name="last-name" class="form-control" required>
                       </div>
                     </div>
                   </div>
@@ -128,9 +128,10 @@
                   </div>
                   <div class="sm-p-t-10 clearfix">
                     <p class="pull-left small hint-text m-t-5 font-arial">I hereby certify that the information above is true and accurate. </p>
-                    <button class="btn btn-default font-montserrat all-caps fs-12 pull-right xs-pull-left">Submit</button>
+                    <input id="submit" name="submit" type="submit" value="Send" class="btn btn-default font-montserrat all-caps fs-12 pull-right xs-pull-left">
                   </div>
                   <div class="clearfix"></div>
+                </form>
                 </form>
               </div>
             </div>
