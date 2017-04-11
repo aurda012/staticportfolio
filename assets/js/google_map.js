@@ -3,6 +3,7 @@
  * Render maps using Google Maps JS API
  * For DEMO purposes only. Extract what you need.
  * ============================================================ */
+
 (function($) {
 
     'use strict';
@@ -21,7 +22,7 @@
             zoom: zoomLevel,
             disableDefaultUI: true,
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(40.6700, -73.9400), // New York
+            center: new google.maps.LatLng(25.7823,-80.3012), // New York
             scrollwheel: false,
             // Map styling
             styles: [{
@@ -144,3 +145,4 @@
     }
 
 })(window.jQuery);
+
